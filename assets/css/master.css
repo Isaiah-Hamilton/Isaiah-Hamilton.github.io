@@ -381,8 +381,17 @@ nav ul li a {
 }
 
 .arg-container {
+      place-items: center;
+      align-items: center;
       display: grid;
       grid-template-columns: 1fr 1fr 1fr;
       margin: 10%;
       margin-bottom: 8%;
+      text-align: center;
+}
+
+.arg-container p {
+      margin: 16px;
+      font-size: 16px;
+      line-height: 1.8em;
 }
