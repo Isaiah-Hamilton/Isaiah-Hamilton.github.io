@@ -32,15 +32,15 @@ body {
     padding-bottom: 6px;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 500px) {
       .content h1 {
         font-size: 60px;
       }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 500px) {
       #action-resume {
-            grid-column: 2;
+            grid-column: 3;
       }
 }
 
@@ -353,7 +353,7 @@ nav ul li a {
 
 @media screen and (max-width: 500px) {
       .about-image{ 
-          width: 70%; 
+          width: 0%; 
       } 
 }
 
@@ -395,4 +395,10 @@ nav ul li a {
       font-size: 16px;
       line-height: 1.8em;
       text-align: center;
+}
+
+@media screen and (max-width: 500px) {
+      .why-me-main-text h1{ 
+          font-size: 35px; 
+      } 
 }
