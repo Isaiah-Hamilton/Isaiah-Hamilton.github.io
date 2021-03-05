@@ -70,6 +70,14 @@ p {
     margin-bottom: 11rem;
 }
 
+#email-copy {
+      background:none;
+      border:none;
+      margin:0;
+      padding:0;
+      cursor: pointer;
+}
+
 .action {
     margin-right: 0px;
     display: flex;
