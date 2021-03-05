@@ -316,10 +316,7 @@ nav ul li a {
 }
 
 .about-content {
-      margin-left: 12.5%;
-      margin-right: 12.5%;
-      margin-bottom: 10%;
-      margin-top: 4%;
+      margin-left: 4% 12.5% 10%;
       position: relative;
       align-items: center;
       display: flex;
