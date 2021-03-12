@@ -5,7 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Portfolio</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js" ></script>
+    <script src="assets/js/main.js"></script>
+    <link rel="icon" href="../../assets/images/nodejs.svg">
     <link rel="stylesheet" href="assets/css/master.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
     <script src="https://kit.fontawesome.com/a223b19e18.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -44,13 +52,13 @@
             <div class="header-main">
                 <div class="content">
                     <div>
-                        <h1>Web Developer</h1>
+                        <h1 class="animate__animated animate__slideInLeft animate__delay-1s">Web Developer</h1>
                     </div>
-                    <p><i class="fas fa-map-marker-alt"></i>Atlanta, GA</p>
+                    <p class="animate__animated animate__slideInLeft animate__delay-1s"><i class="fas fa-map-marker-alt"></i>Atlanta, GA</p>
 
                     <!-- Header Icons -->
-                    <div class="header_action">
-                        <a href="https://www.linkedin.com/in/rayjohnson141/" class="action" target="_blank">
+                    <div class="animate__animated animate__slideInLeft animate__delay-1s" id="header_action">
+                        <a href="https://www.linkedin.com/in/isaiah-hamilton-093361209/" class="action" target="_blank">
                             <i class="fab fa-linkedin-in"></i>
                             <span>LinkedIn</span>
                         </a>
@@ -58,7 +66,7 @@
                             <i class="fab fa-github"></i>
                             <span>Github</span>
                         </a>
-                        <a href="https://s3.amazonaws.com/raymond-jay-portfolio/johnson_raymond_resume.pdf" class="action" id="action-resume" target="_blank">
+                        <a href="#" class="action" id="action-resume" target="_blank">
                             <i class="fas fa-newspaper" ></i>
                             <span>Resume</span>
                         </a>
@@ -75,9 +83,9 @@
             <div class="about-main-text">
                 <h1>My passion and focus is for Web development.</h1>
                 <p>
-                    Let's be honest and cut to the case.
+                    Let's be honest and cut to the chase.
                     You need a website that looks amazing and actually works.
-                    Bottom line, that's what I do. And if you want to learn more about working with me,
+                    well, that's what I do. And if you want to learn more about working with me,
                     give me a call or email.
                 </p>
             </div>
@@ -107,6 +115,16 @@
                 </div>
             </div>
         </div>
+    </section>
+    <section id="coming-soon">
+        <div class="bgimg">
+            <div class="middle">
+              <h1 class="cs">COMING SOON</h1>
+              <br>
+              <p class="cs">5 days left</p>
+              <p class="cs">may be delayed because of school</p>
+            </div>
+          </div>
     </section>
 </body>
 </html>
