@@ -476,11 +476,25 @@ nav ul li a {
       box-shadow: 0 0.8rem 1rem rgb(0 0 0 / 30%);
 }
 
+@media screen and (max-width: 415px) {
+      .project_display_poster { 
+            width: 227.5px;
+            height: 122px;
+      } 
+}
+
 .project_display_action {
       margin: auto;
       width: 50%;
       padding-left: 5rem;
       padding-top: 1.5rem;
+}
+
+@media screen and (max-width: 415px) {
+      .project_display_action {
+            padding-top: 1rem;
+            padding-left: 0;
+      } 
 }
 
 .project_display_action a:link {
@@ -563,11 +577,48 @@ nav ul li a {
       width: 50%;
       padding-top: 1rem;
       text-align: center;
+      color: #353a47;
 }
 
 .project-detail-section p {
       margin: auto;
       width: 50%;
       padding-top: 1rem;
+      padding-bottom: 3rem;
       text-align: center;
+      color: #353a47;
+      letter-spacing: .01em;
+      line-height: 1.5em;
+      font-style: normal;
+      font-size: 16px;
+      font-weight: 525;
+      text-transform: none;
+      line-height: 2em;
+}
+
+.highlight {
+      color: #4497e2;
+}
+
+.projects hr {
+      border: none;
+      border-bottom: 1px solid #c9c9c9;
+}
+
+hr {
+      box-sizing: initial;
+      height: 0;
+      overflow: visible;
+}
+
+@media screen and (max-width: 415px) {
+      .small-section-title {
+            width: fit-content;
+      } 
+}
+
+@media screen and (max-width: 415px) {
+      .project-technologies-list {
+            padding-left: 0;
+      }
 }
