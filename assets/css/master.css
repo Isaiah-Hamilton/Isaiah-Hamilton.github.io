@@ -540,7 +540,7 @@ nav ul li a {
       padding-left: 25%;
       display: grid;
       list-style: none;
-      grid-template-columns: repeat(2,1fr);
+      grid-template-columns: repeat(2, 1fr);
       grid-row-gap: 1.5rem;
       color: #353a47;
       font-weight: 600;
