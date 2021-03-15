@@ -1,6 +1,6 @@
 # Portfolio Website
 
-This website was made so that I can show off my projects and talent. There is not much you can do to help but if you want you can read [contribute](##contribute) and learn how you can make my webiste better and faster.
+This website was made so that I can show off my projects and talent. There is not much you can do to help but if you want you can read [contribute](##contribute) and learn how you can make my website better and faster.
 
 ## Built With
 
@@ -34,4 +34,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## Acknowledgments
 
 * Hat tip to anyone whose code was used
-* Thank you to everyone That ponited out bugs and fixing the code
+* Thank you to everyone That pointed out bugs and fixing the code

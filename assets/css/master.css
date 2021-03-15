@@ -89,9 +89,14 @@ p {
       flex-direction: column;
       text-align: center;
       transition: .15s ease-in-out;
-      transform: translateY(0);
+      transition: transform 250ms;
       text-decoration: none;
       color: #fff;
+}
+
+.action:hover {
+      transform: translateY(-10px);
+      color: deepskyblue;
 }
 
 a:hover {
@@ -119,9 +124,7 @@ nav {
 
 .logo {
       float: left;
-      padding: 8px;
       margin-left: 16px;
-      margin-top: 8px;
 }
 
 .logo a {
@@ -170,7 +173,8 @@ nav ul li a {
 
 @media screen and (max-width: 864px) {
       .logo {
-            padding: 0;
+            padding-left: 8px;
+            padding-top: 12px;
       }
 
       .nav-wrapper {
@@ -626,7 +630,7 @@ hr {
 
 #footer {
       background-color: #4497e2;
-      padding-bottom: 5rem;
+      padding-bottom: 2rem;
 }
 
 #footer .container {
@@ -646,14 +650,14 @@ hr {
 }
 
 #footer .container p {
-      margin-left: 10rem;
-      margin-right: 10rem;
+      margin-left: 20rem;
+      margin-right: 20rem;
 }
 
 #footer .container form {
       margin: auto;
       width: 50%;
-      padding-top: 5%;
+      padding-top: 3%;
 }
 
 form > .fields {
@@ -689,6 +693,7 @@ label {
       font-size: 0.8em;
       font-weight: 700;
       letter-spacing: 0.1em;
+      text-align: center;
       margin: 0 0 0.7em 0;
       text-transform: uppercase;
       cursor: default;
@@ -709,6 +714,7 @@ input[type="text"], input[type="password"], input[type="email"], input[type="tel
       padding: 0 1em;
       text-decoration: none;
       width: 100%;
+      text-align: center;
 }
 
 input {
@@ -735,6 +741,7 @@ input {
       border-image: initial;
       height:40px;
       font-size:14pt;
+      text-align: center;
 }
 
 .submit {
@@ -747,6 +754,12 @@ input {
       background-color: rgba(4, 29, 49, 0.1);
       color: #fff;
       text-align: center;
+      transition: transform 250ms;
+}
+
+.submit:hover {
+      background-color: rgba(4, 29, 49, 0.2);
+      transform: translateY(-10px);
 }
 
 #footer .inner .contact {
@@ -770,13 +783,13 @@ ul.contact {
 }
 
 .submit-hr {
-      opacity: 100%;
+      opacity: 50%;
 }
 
 .copyright {
       list-style: none;
       margin-left: 24.5%;
-      padding-top: 3rem;
+      padding-top: 2rem;
       width: 70%;
 }
 
@@ -786,21 +799,25 @@ ul.contact {
 
 .copyright a:link {
       text-decoration: none;
-      color: #151515;
+      color: #fff;
 }
 
 .copyright a:visited {
       text-decoration: none;
-      color: #151515;
+      color: #fff;
 }
 
 .copyright a:hover {
       text-decoration: none;
-      color: #3F8BD0;
+      color: aquamarine;
       transition: all 0.2s ease;
 }
 
 .copyright a:active {
       text-decoration: none;
-      color: #3F8BD0;
+      color: aquamarine;
+}
+
+#design-space {
+      padding-left: 0.3em;
 }
