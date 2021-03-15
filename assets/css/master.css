@@ -54,7 +54,6 @@ h1 {
       margin-block-start: 0.30em;
       margin-block-end: 0.25em;
       display: inline-block;
-      margin-left: -1.7rem;
 }
 
 i {
@@ -63,7 +62,6 @@ i {
 
 p {
       margin-top: 1rem; 
-      margin-left: -5%;
 }
 
 #header_action {
@@ -75,7 +73,6 @@ p {
       justify-content: left;
       margin-top: 1rem;
       margin-bottom: 11rem;
-      margin-left: -7%;
 }
 
 #email-copy {
