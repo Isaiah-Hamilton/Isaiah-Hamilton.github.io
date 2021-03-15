@@ -96,7 +96,7 @@ p {
 
 a:hover {
       transition: 0.5s;
-      color: #4497E3;
+      color: #4497e2;
       border-radius: 5px;
 }
 
@@ -409,6 +409,10 @@ nav ul li a {
       text-align: center;
 }
 
+.arg-container h2 {
+      color: #6cafeb;
+}
+
 @media screen and (max-width: 415px) {
       .arg-container{
             grid-template-columns: min-content;
@@ -618,4 +622,185 @@ hr {
       .project-technologies-list {
             padding-left: 0;
       }
+}
+
+#footer {
+      background-color: #4497e2;
+      padding-bottom: 5rem;
+}
+
+#footer .container {
+      padding-top: 2.5em;
+      text-align: center;
+      color: #fff;
+      width: 100%;
+      overflow: hidden;
+}
+
+#footer .container h1 {
+      font-size: 1.7em;
+      margin: .67em 0;
+      font-weight: 530;
+      padding-bottom: 0.3em;
+      border-bottom: solid 2px rgba(255, 255, 255, 0.125);
+}
+
+#footer .container p {
+      margin-left: 10rem;
+      margin-right: 10rem;
+}
+
+#footer .container form {
+      margin: auto;
+      width: 50%;
+      padding-top: 5%;
+}
+
+form > .fields {
+      display: -moz-flex;
+      display: -webkit-flex;
+      display: -ms-flex;
+      display: flex;
+      -moz-flex-wrap: wrap;
+      -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+      width: calc(100% + 3em);
+      margin: -1.5em 0 2em -1.5em;
+}
+
+form > .fields > .field {
+      -moz-flex-grow: 0;
+      -webkit-flex-grow: 0;
+      -ms-flex-grow: 0;
+      flex-grow: 0;
+      -moz-flex-shrink: 0;
+      -webkit-flex-shrink: 0;
+      -ms-flex-shrink: 0;
+      flex-shrink: 0;
+      padding: 1.5em 0 0 1.5em;
+      width: calc(100% - 1.5em);
+}
+
+label {
+      color: #ffffff;
+      display: block;
+      font-family: Raleway, Helvetica, sans-serif;
+      font-size: 0.8em;
+      font-weight: 700;
+      letter-spacing: 0.1em;
+      margin: 0 0 0.7em 0;
+      text-transform: uppercase;
+      cursor: default;
+}
+
+input[type="text"], input[type="password"], input[type="email"], input[type="tel"], select, textarea {
+      -moz-appearance: none;
+      -webkit-appearance: none;
+      -ms-appearance: none;
+      appearance: none;
+      background: rgba(255, 255, 255, 0.025);
+      border-radius: 5px;
+      border: none;
+      border: solid 2px rgba(255, 255, 255, 0.125);
+      color: inherit;
+      display: block;
+      outline: 0;
+      padding: 0 1em;
+      text-decoration: none;
+      width: 100%;
+}
+
+input {
+      -webkit-writing-mode: horizontal-tb !important;
+      text-rendering: auto;
+      color: -internal-light-dark(black, white);
+      letter-spacing: normal;
+      word-spacing: normal;
+      text-transform: none;
+      text-indent: 0px;
+      text-shadow: none;
+      display: inline-block;
+      text-align: start;
+      appearance: auto;
+      background-color: -internal-light-dark(rgb(255, 255, 255), rgb(59, 59, 59));
+      -webkit-rtl-ordering: logical;
+      cursor: text;
+      margin: 0em;
+      font: 400 13.3333px Arial;
+      padding: 1px 2px;
+      border-width: 2px;
+      border-style: inset;
+      border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+      border-image: initial;
+      height:40px;
+      font-size:14pt;
+}
+
+.submit {
+      cursor: pointer;
+      width: 40%;
+      height: 40px;
+      margin: 0 auto;
+      border: none;
+      border-radius: 10px;
+      background-color: rgba(4, 29, 49, 0.1);
+      color: #fff;
+      text-align: center;
+}
+
+#footer .inner .contact {
+      width: calc(50% - 1.5em);
+}
+
+ul.contact {
+      list-style: none;
+      padding: 0;
+      margin: 0 0 2em 0;
+      padding-top: 5rem;
+      margin-left: 500px;
+}
+
+.contact li {
+      padding-bottom: 5rem;
+}
+
+.submit-div {
+      padding-bottom: 2rem;
+}
+
+.submit-hr {
+      opacity: 100%;
+}
+
+.copyright {
+      list-style: none;
+      margin-left: 24.5%;
+      padding-top: 3rem;
+      width: 70%;
+}
+
+.copyright li {
+      float: left;
+}
+
+.copyright a:link {
+      text-decoration: none;
+      color: #151515;
+}
+
+.copyright a:visited {
+      text-decoration: none;
+      color: #151515;
+}
+
+.copyright a:hover {
+      text-decoration: none;
+      color: #3F8BD0;
+      transition: all 0.2s ease;
+}
+
+.copyright a:active {
+      text-decoration: none;
+      color: #3F8BD0;
 }
