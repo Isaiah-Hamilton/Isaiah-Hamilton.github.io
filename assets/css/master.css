@@ -789,7 +789,7 @@ ul.contact {
 .copyright {
       list-style: none;
       margin-left: 24.5%;
-      padding-top: 2rem;
+      padding-top: 1rem;
       width: 70%;
 }
 
@@ -815,7 +815,7 @@ ul.contact {
 
 .copyright a:active {
       text-decoration: none;
-      color: aquamarine;
+      color: #02AAB0;
 }
 
 #design-space {
