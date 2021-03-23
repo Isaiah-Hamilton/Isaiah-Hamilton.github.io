@@ -19,11 +19,12 @@ body {
 }
 
 .header-nav-wrapper {
-      background: linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.8)),url(../../assets/images/headerBackground.jpg);
+      background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0,0,0,.6)),url(../../assets/images/headerBackground.jpg);
       background-position: top;
       background-size: cover;
       background-repeat: no-repeat;
       box-shadow: 0 1rem 2rem rgb(0 0 0 / 20%);
+      padding-bottom: 4rem;
 }
 
 .content {
@@ -126,6 +127,7 @@ nav {
 .logo {
       float: left;
       margin-left: 16px;
+      padding-top: 16px;
 }
 
 .logo a {
