@@ -31,6 +31,12 @@ body {
       padding-bottom: 6px;
 }
 
+@media screen and (min-width: 1300px) {
+      .content {
+            padding-bottom: 28vh;
+      }
+}
+
 @media screen and (max-width: 500px) {
       .content h1 {
         font-size: 60px;
@@ -601,6 +607,13 @@ nav ul li a {
       line-height: 2em;
 }
 
+@media screen and (min-width: 1600px) {
+      .project-detail-section p {
+            padding-left: 15rem;
+            padding-right: 15rem;
+      }
+}
+
 .highlight {
       color: #4497e2;
 }
@@ -652,6 +665,13 @@ hr {
 #footer .container p {
       margin-left: 20rem;
       margin-right: 20rem;
+}
+
+@media screen and (min-width: 1600px) {
+      #footer .container p {
+            margin-left: 40rem;
+            margin-right: 40rem;
+      }
 }
 
 #footer .container form {
