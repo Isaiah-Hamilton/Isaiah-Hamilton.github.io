@@ -155,7 +155,6 @@ nav ul {
 
 nav ul li {
       display: inline-block;
-      float: left;
 }
 
 nav ul li:not(:first-child) {
@@ -314,6 +313,13 @@ nav ul li a {
       align-items: center;
 }
 
+@media screen and (min-width: 1600px) {
+      .about-wrapper {
+            padding-left: 15vh;
+            padding-right: 15vh;
+      }
+}
+
 .hidden {
       display: none;
 }
@@ -443,11 +449,26 @@ nav ul li a {
       } 
 }
 
+@media screen and (min-width: 1600px) {
+      .why-me-main-text h1{ 
+          padding-left: 20vh;
+          padding-right: 20vh;
+      } 
+}
+
 @media screen and (max-width: 415px) {
       .arg-container p { 
           font-size: 15px;
           margin-right: 0%;
           margin-left: 0%;
+      } 
+}
+
+@media screen and (min-width: 1600px) {
+      .arg-container p { 
+          font-size: 17px;
+          margin-right: 2%;
+          margin-left: 2%;
       } 
 }
 
@@ -738,7 +759,6 @@ input[type="text"], input[type="password"], input[type="email"], input[type="tel
 }
 
 input {
-      -webkit-writing-mode: horizontal-tb !important;
       text-rendering: auto;
       color: -internal-light-dark(black, white);
       letter-spacing: normal;
