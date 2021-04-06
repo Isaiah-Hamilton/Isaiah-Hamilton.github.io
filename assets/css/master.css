@@ -7,6 +7,7 @@ html {
       padding: 0;
       width: 100%;
       height: 100vh;
+      scroll-behavior: smooth;
       font-family: Roboto, sans-serif;
 }
 
@@ -67,7 +68,7 @@ i {
 }
 
 p {
-      margin-top: 1rem; 
+      margin-top: 1rem;
 }
 
 #header_action {
@@ -350,7 +351,6 @@ nav ul li a {
       width: 100%;
       margin-left: 7%;
       margin-right: 7%;
-      color: #151515;
 }
 
 .about-main-text h1 {
@@ -379,9 +379,9 @@ nav ul li a {
 }
 
 @media screen and (max-width: 500px) {
-      .about-image{ 
-          width: 0%; 
-      } 
+      .about-image{
+          width: 0%;
+      }
 }
 
 #why-me-wrapper {
@@ -444,32 +444,32 @@ nav ul li a {
 }
 
 @media screen and (max-width: 415px) {
-      .why-me-main-text h1{ 
-          font-size: 25px; 
-      } 
+      .why-me-main-text h1{
+          font-size: 25px;
+      }
 }
 
 @media screen and (min-width: 1600px) {
-      .why-me-main-text h1{ 
+      .why-me-main-text h1{
           padding-left: 20vh;
           padding-right: 20vh;
-      } 
+      }
 }
 
 @media screen and (max-width: 415px) {
-      .arg-container p { 
+      .arg-container p {
           font-size: 15px;
           margin-right: 0%;
           margin-left: 0%;
-      } 
+      }
 }
 
 @media screen and (min-width: 1600px) {
-      .arg-container p { 
+      .arg-container p {
           font-size: 17px;
           margin-right: 2%;
           margin-left: 2%;
-      } 
+      }
 }
 
 .cs {
@@ -509,10 +509,10 @@ nav ul li a {
 }
 
 @media screen and (max-width: 415px) {
-      .project_display_poster { 
+      .project_display_poster {
             width: 227.5px;
             height: 122px;
-      } 
+      }
 }
 
 .project_display_action {
@@ -526,25 +526,25 @@ nav ul li a {
       .project_display_action {
             padding-top: 1rem;
             padding-left: 0;
-      } 
+      }
 }
 
 .project_display_action a:link {
       text-decoration: none;
       color: #4497E3;
 }
-    
+
 .project_display_action a:visited {
       text-decoration: none;
       color: #4497E3;
 }
-    
+
 .project_display_action a:hover {
       text-decoration: none;
       color: #266eb1;
       transition: all 0.2s ease;
 }
-    
+
 .project_display_action a:active {
       text-decoration: none;
       color: #4497E3;
@@ -653,7 +653,7 @@ hr {
 @media screen and (max-width: 415px) {
       .small-section-title {
             width: fit-content;
-      } 
+      }
 }
 
 @media screen and (max-width: 415px) {
