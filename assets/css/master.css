@@ -325,7 +325,7 @@ nav ul li a {
       display: none;
 }
 
-.about-image {
+#about-image {
       width: 455px;
       height: 366px;
       position: center;
@@ -379,7 +379,7 @@ nav ul li a {
 }
 
 @media screen and (max-width: 500px) {
-      .about-image{
+      #about-image{
           width: 0%;
       }
 }
