@@ -2,7 +2,7 @@
 :root {
   --blue: #0e0620; /*#0e0620*/
   --white: #fff;
-  --green: #4497E3;
+  --green: linear-gradient(0deg, hsla(0, 99%, 65%, 1) 0%, hsla(8, 98%, 59%, 1) 100%);
 }
 
 html,
