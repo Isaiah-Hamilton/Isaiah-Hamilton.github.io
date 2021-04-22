@@ -546,3 +546,93 @@ section {
     padding-left: 10px;
   }
 }
+
+/* Ipad Screen Size */
+@media screen and (min-width: 3840px) {
+  .hero-title {
+    font-size: 15rem;
+  }
+
+  #hero .hero-cta {
+    margin-top: 0;
+  }
+
+  #hero .hero-cta a {
+    font-size: 7rem
+  }
+
+  #about .about-wrapper__image {
+    display: flex;
+    height: 100%;
+    width: 300px;
+    padding-left: 80rem;
+    padding-bottom: 10rem;
+  }
+
+  .about-wrapper__info-text {
+    font-size: 5rem;
+    width: 80%;
+  }
+
+  .cta-btn {
+    padding: 2rem;
+    font-size: 4rem;
+  }
+
+  .d-flex {
+    padding-bottom: 5rem;
+  }
+
+  .about-wrapper {
+    padding-left: 60rem;
+  }
+
+  #about .col-md-6, .col-sm-12 {
+    width: 100%;
+    padding-right: 20rem;
+    padding-left: 0px;
+  }
+
+  #projects .project-wrapper__text-title {
+    font-weight: 700;
+    margin-bottom: 1.8rem;
+    font-size: 7rem;
+  }
+
+  #projects .project-wrapper__text {
+    padding-left: 20rem;
+  }
+
+  .mb-4 {
+    font-size: 5rem;
+    width: 50%;
+  }
+
+  .section-title {
+    font-size: 10rem;
+  }
+
+  .project-wrapper__image {
+    max-width: 200rem;
+  }
+
+  #contact .section-title {
+    padding-top: 20rem;
+  }
+
+  #contact .contact-wrapper__text, #contact .contact-wrapper a {
+    font-size: 5rem;
+  }
+
+  .fa {
+    font-size: 10rem;
+  }
+
+  .social-space {
+    padding: 3rem;
+  }
+
+  .footer__text {
+    font-size: 4rem;
+  }
+}
