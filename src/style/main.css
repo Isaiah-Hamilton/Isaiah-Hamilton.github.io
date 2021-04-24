@@ -17,6 +17,8 @@ html {
 
 body {
   font-family: 'Montserrat', sans-serif;
+  contain: content;
+  overflow-x: hidden;
   text-align: center;
   margin: 0;
 }
@@ -635,4 +637,8 @@ section {
   .footer__text {
     font-size: 4rem;
   }
+}
+
+.text-link a {
+  color: var(--primary-color);
 }
