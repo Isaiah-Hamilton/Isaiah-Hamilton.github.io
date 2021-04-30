@@ -6,7 +6,6 @@ This website was made so that I can show off my projects and talent. There is no
 
 * [Node.js](https://github.com/nodejs/node) - Javascript Framework
 * [Font Awesome](https://fontawesome.com/) - Fonts Used
-* [animate.css](https://github.com/animate-css/animate.css) - animations for css
 
 ## contribute
 
@@ -18,7 +17,7 @@ This website was made so that I can show off my projects and talent. There is no
 
 ## Versioning
 
-We use [White Source](.whitesource) for versioning.
+I used [White Source](.whitesource) for versioning.
 
 ## Contributors
 
